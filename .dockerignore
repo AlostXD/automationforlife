@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+yarn-error.log
+.next/cache
+.next/output
+.git
+.gitignore
+.DS_Store
+.env
+.env.*
+coverage
+dist
