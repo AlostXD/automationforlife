@@ -10,21 +10,14 @@ export default function Home() {
       {/* HEADER/NAV */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-black/70 backdrop-blur-sm border-b border-zinc-800">
         <nav className="mx-auto max-w-6xl px-4 sm:px-6 py-2 flex items-center justify-between">
-          <a
+            <a
             href="#inicio"
-            className="flex items-center gap-2 text-white font-semibold"
-          >
-            <Image
-              src="/logoAlost.png"
-              alt="Automation For Life - Logotipo"
-              width={110}
-              height={36}
-              priority
-            />
-            <span className="text-red-500 text-sm sm:text-base">
-              Automation For Life - Vanderlei Júnio Ribeiro
+            className="flex items-center gap-2 text-white font-semibold px-4 py-2"
+            >
+            <span className="text-red-500 text-lg sm:text-2xl font-bold">
+              Automation For Life
             </span>
-          </a>
+            </a>
 
           {/* Desktop links */}
           <div className="hidden sm:flex items-center gap-4 text-zinc-300 text-sm sm:text-base">
@@ -101,13 +94,6 @@ export default function Home() {
                 className="flex items-center gap-2 text-white font-semibold"
                 onClick={() => setMobileOpen(false)}
               >
-                <Image
-                  src="/logoAlost.png"
-                  alt="Automation For Life - Logotipo"
-                  width={110}
-                  height={36}
-                  priority
-                />
                 <span className="text-red-500">Automation For Life</span>
               </a>
               <button
@@ -453,23 +439,89 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SOBRE (resumo curto) */}
+        {/* SOBRE (Equipe) */}
         <section
           id="sobre"
           className="mt-12 w-full border-t border-zinc-800 pt-8"
         >
           <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
-            Sobre mim
+            Sobre a equipe
           </h2>
           <p className="mt-3 text-zinc-300 max-w-3xl">
-            Transformo processos em fluxos automatizados simples e confiáveis,
-            reduzindo tarefas repetitivas, organizando informações e gerando
-            relatórios e alertas claros.
+            Somos uma equipe dedicada a transformar rotinas em processos
+            automatizados simples e confiáveis. Unimos experiência prática em
+            automação com foco em reduzir tarefas repetitivas, organizar
+            informações e gerar resultados claros por meio de relatórios e
+            alertas inteligentes.
           </p>
-          <p className="mt-2 text-zinc-300 max-w-3xl">
-            Quer saber mais sobre mim? Acesse meu portifólio{" "}
-            <a href="https://portif-lio-zeta.vercel.app/" className="text-red-500 hover:underline">clicando aqui</a> ou
-            no botão abaixo.
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="rounded-xl border border-zinc-800 bg-zinc-900/60 p-5">
+              <h3 className="text-white font-semibold">
+                Vanderlei Júnio Ribeiro
+              </h3>
+              <p className="mt-2 text-zinc-300">
+                Automação de processos, integração com planilhas, emails e
+                bancos de dados.
+              </p>
+              <ul className="mt-3 text-zinc-300 space-y-1">
+                <li>
+                  WhatsApp:{" "}
+                  <a
+                    className="text-red-500 hover:underline"
+                    href="https://wa.me/5534999426661"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    (+55) 34 99942-6661
+                  </a>
+                </li>
+                <li>
+                  E-mail:{" "}
+                  <a
+                    className="text-red-500 hover:underline"
+                    href="mailto:junio.ribeiro02@hotmail.com"
+                  >
+                    junio.ribeiro02@hotmail.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="rounded-xl border border-zinc-800 bg-zinc-900/60 p-5">
+              <h3 className="text-white font-semibold">
+                Alisson Luis Borges Oliveira
+              </h3>
+              <p className="mt-2 text-zinc-300">
+                Suporte, organização de dados e automação aplicada ao dia a dia
+                das empresas.
+              </p>
+              <ul className="mt-3 text-zinc-300 space-y-1">
+                <li>
+                  WhatsApp:{" "}
+                  <a
+                    className="text-red-500 hover:underline"
+                    href="https://wa.me/553498390474"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    (+55) 34 99839-0474
+                  </a>
+                </li>
+                <li>
+                  E-mail:{" "}
+                  <a
+                    className="text-red-500 hover:underline"
+                    href="mailto:alissonluis2009@gmail.com"
+                  >
+                    alissonluis2009@gmail.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p className="mt-6 text-zinc-300 max-w-3xl">
+            Nosso objetivo é apoiar pequenas e médias empresas e equipes
+            administrativas com soluções diretas, reduzindo custos e ganhando
+            eficiência nos processos do dia a dia.
           </p>
         </section>
 
@@ -492,9 +544,9 @@ export default function Home() {
         >
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div className="col-span-1">
-              <h3 className="text-white font-semibold">Fale comigo</h3>
+              <h3 className="text-white font-semibold">Fale Conosco</h3>
               <p className="mt-2">
-                WhatsApp:{" "}
+                Vanderlei (WhatsApp):{" "}
                 <a
                   className="text-red-500 hover:underline"
                   href="https://wa.me/5534999426661"
@@ -504,15 +556,35 @@ export default function Home() {
                   (+55) 34 99942-6661
                 </a>
               </p>
-                <p className="mt-1">
-                E-mail:{" "}
+              <p className="mt-1">
+                Vanderlei (E-mail):{" "}
                 <a
                   className="text-red-500 hover:underline"
                   href="mailto:junio.ribeiro02@hotmail.com"
                 >
                   junio.ribeiro02@hotmail.com
                 </a>
-                </p>
+              </p>
+              <p className="mt-4">
+                Alisson (WhatsApp):{" "}
+                <a
+                  className="text-red-500 hover:underline"
+                  href="https://wa.me/553498390474"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  (+55) 34 99839-0474
+                </a>
+              </p>
+              <p className="mt-1">
+                Alisson (E-mail):{" "}
+                <a
+                  className="text-red-500 hover:underline"
+                  href="mailto:alissonluis2009@gmail.com"
+                >
+                  alissonluis2009@gmail.com
+                </a>
+              </p>
             </div>
             <div className="col-span-1">
               <h3 className="text-white font-semibold">Links úteis</h3>
