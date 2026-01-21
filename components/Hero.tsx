@@ -19,7 +19,7 @@ export default function Hero() {
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-3 justify-center sm:justify-start">
         <a
           className="flex h-12 items-center justify-center rounded-full bg-red-600 px-6 text-white font-semibold transition-colors hover:bg-red-500"
-          href="https://wa.me/5547999999999?text=Quero%20automatizar%20meu%20neg%C3%B3cio%20com%20N8N"
+          href="https://wa.me/5534999426661?text=Quero%20automatizar%20meu%20neg%C3%B3cio%20com%20N8N"
           target="_blank"
           rel="noopener noreferrer"
         >
