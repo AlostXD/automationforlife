@@ -16,9 +16,6 @@ export const metadata: Metadata = {
   title: "Automation For Life",
   description:
     "Automação inteligente com N8N: Google Sheets, WhatsApp, e-mails, I.A, fluxos empresariais e contabilidade. Reduza custos e acelere resultados.",
-  icons: {
-    icon: "/logoAlost.png",
-  },
 };
 
 export default function RootLayout({
