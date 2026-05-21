@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Plans() {
   return (
     <section
@@ -26,26 +28,27 @@ export default function Plans() {
             Ideal para iniciar com automações simples e relatórios automáticos.
           </p>
           <span className="mt-3 inline-flex w-fit rounded-full bg-red-600/10 text-red-400 px-3 py-1 text-sm font-semibold">
-            R$ 119 • pagamento único
+            R$ 100 • pagamento único
           </span>
           <ul className="mt-4 space-y-2 text-zinc-300 list-disc list-inside">
+            <li>(Limite de 3 automatizações)</li>
             <li>Relatórios automáticos a partir de planilhas</li>
             <li>Envio de relatórios por email</li>
             <li>Agendamento mensal ou semanal</li>
-            <li>Processamento simples de dados</li>
           </ul>
         </div>
         <div className="rounded-xl border border-zinc-800 bg-zinc-900 p-6 flex flex-col hover:border-zinc-700 hover:bg-zinc-900/80 transition-colors shadow-sm">
           <h3 className="text-white font-bold text-xl">
-            Plano Padrão – Automação Empresarial
+            Plano Premium – Automação Empresarial
           </h3>
           <p className="mt-2 text-zinc-300">
             Automação recorrente com consolidação e distribuição de informações.
           </p>
           <span className="mt-3 inline-flex w-fit rounded-full bg-red-600/10 text-red-400 px-3 py-1 text-sm font-semibold">
-            R$ 299 • pagamento único
+            R$ 300 • pagamento único
           </span>
           <ul className="mt-4 space-y-2 text-zinc-300 list-disc list-inside">
+            <li>(Limite de 10 automatizações)</li>
             <li>Relatórios automáticos recorrentes</li>
             <li>Cálculos e consolidação de dados</li>
             <li>Envio para múltiplos emails</li>
@@ -55,13 +58,13 @@ export default function Plans() {
         </div>
         <div className="rounded-xl border border-zinc-800 bg-zinc-900 p-6 flex flex-col hover:border-zinc-700 hover:bg-zinc-900/80 transition-colors shadow-sm">
           <h3 className="text-white font-bold text-xl">
-            Plano Premium – Automação Avançada & Integrações
+            Plano Personalizado – Projetos Específicos e personalizados
           </h3>
           <p className="mt-2 text-zinc-300">
-            Para operações mais robustas, com integrações e monitoramento.
+            Soluções avançadas e personalizadas para necessidades específicas para seu projeto ou necessidade.
           </p>
           <span className="mt-3 inline-flex w-fit rounded-full bg-red-600/10 text-red-400 px-3 py-1 text-sm font-semibold">
-            R$ 599 • pagamento único
+            R$ • Entre em contato e faça já seu orçamento!
           </span>
           <ul className="mt-4 space-y-2 text-zinc-300 list-disc list-inside">
             <li>Automação avançada de processos</li>

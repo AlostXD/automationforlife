@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Automation For Life",
+  title: "Noxys Studio",
   description:
     "Automação inteligente com N8N: Google Sheets, WhatsApp, e-mails, I.A, fluxos empresariais e contabilidade. Reduza custos e acelere resultados.",
 };

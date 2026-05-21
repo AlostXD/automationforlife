@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 type HeaderProps = {
   onOpenMobile: () => void;
 };
@@ -12,9 +14,12 @@ export default function Header({ onOpenMobile }: HeaderProps) {
           href="#inicio"
           className="flex items-center gap-2 text-white font-semibold px-4 py-2"
         >
-          <span className="text-red-500 text-lg sm:text-2xl font-bold">
-            Automation For Life
-          </span>
+          <Image
+            src="/favicon.ico"
+            alt="Logo"
+            width={150}
+            height={150}
+          />
         </a>
 
         {/* Desktop links */}
@@ -45,6 +50,9 @@ export default function Header({ onOpenMobile }: HeaderProps) {
           </a>
           <a href="#sites" className="hover:text-white transition-colors px-1">
             Sites
+          </a>
+          <a href="/termos" className="hover:text-white transition-colors px-1">
+            Termos
           </a>
         </div>
 

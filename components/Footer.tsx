@@ -7,44 +7,12 @@ export default function Footer() {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         <div className="col-span-1">
           <h3 className="text-white font-semibold">Fale Conosco</h3>
-          <p className="mt-2">
-            Vanderlei (WhatsApp):{" "}
-            <a
-              className="text-red-500 hover:underline"
-              href="https://wa.me/5534999426661"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              (+55) 34 99942-6661
-            </a>
-          </p>
           <p className="mt-1">
-            Vanderlei (E-mail):{" "}
             <a
               className="text-red-500 hover:underline"
-              href="mailto:junio.ribeiro02@hotmail.com"
+              href="mailto:automationforlifeadm@hotmail.com"
             >
-              junio.ribeiro02@hotmail.com
-            </a>
-          </p>
-          <p className="mt-4">
-            Alisson (WhatsApp):{" "}
-            <a
-              className="text-red-500 hover:underline"
-              href="https://wa.me/553498390474"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              (+55) 34 99839-0474
-            </a>
-          </p>
-          <p className="mt-1">
-            Alisson (E-mail):{" "}
-            <a
-              className="text-red-500 hover:underline"
-              href="mailto:alissonluis2009@gmail.com"
-            >
-              alissonluis2009@gmail.com
+              automationforlifeadm@hotmail.com
             </a>
           </p>
         </div>
@@ -104,7 +72,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="mt-8 border-t border-zinc-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-        <span>© {new Date().getFullYear()} Automation For Life</span>
+        <span>© {new Date().getFullYear()} Noxys </span>
         <div className="flex gap-4">
           <a
             className="hover:text-red-500"

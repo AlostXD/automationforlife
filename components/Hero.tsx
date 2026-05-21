@@ -1,20 +1,26 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section
       aria-labelledby="hero-title"
       className="w-full flex flex-col gap-6 text-center sm:text-left pt-10"
     >
+      <Image
+        src="/logo.png"
+        alt="Imagem do Hero"
+        width={500}
+        height={500}
+        className="mx-auto"
+      />
       <h1
         id="hero-title"
         className="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight"
       >
-        Automação inteligente com N8N para seu negócio
+        Entregue vida à sua ideia
       </h1>
       <p className="mx-auto sm:mx-0 max-w-3xl text-base sm:text-lg leading-8 text-zinc-300">
-        Automatização de Google Sheets, mensagens no WhatsApp, envio de e-mails,
-        integrações com I.A, fluxo de trabalhos da empresa, contabilidade e
-        muito mais. Reduza custos, elimine tarefas repetitivas e acelere
-        resultados com automações escaláveis.
+          Na <span className="text-red-600 font-extrabold">Noxys</span>, transformamos suas ideias em realidade digital. Oferecemos soluções completas de automação e desenvolvimento de sites, personalizadas para atender às necessidades específicas do seu negócio. Com nossa expertise, você pode reduzir tarefas manuais, aumentar a eficiência e criar uma presença online impactante. Seja para otimizar processos ou construir um site profissional, estamos aqui para ajudar você a alcançar seus objetivos com qualidade e inovação.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-3 justify-center sm:justify-start">
         <a
@@ -23,7 +29,7 @@ export default function Hero() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Falar no WhatsApp
+          Entrar em contato
         </a>
         <a
           className="flex h-12 items-center justify-center rounded-full border border-red-600 px-6 text-red-500 bg-transparent font-semibold transition-colors hover:bg-red-600/10 hover:text-white"

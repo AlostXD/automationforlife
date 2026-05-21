@@ -109,6 +109,15 @@ export default function MobileMenu({ open, onClose }: MobileMenuProps) {
                 Sites
               </a>
             </li>
+            <li>
+              <a
+                className="block rounded-md px-3 py-2 hover:bg-zinc-800 hover:text-white"
+                href="/termos"
+                onClick={onClose}
+              >
+                Termos
+              </a>
+            </li>
           </ul>
           <div className="mt-4 border-t border-zinc-800 pt-4">
             <a

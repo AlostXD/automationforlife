@@ -1,46 +1,18 @@
+import Cards from "./Cards";
+
 export default function About() {
   return (
     <section id="sobre" className="mt-12 w-full border-t border-zinc-800 pt-8">
       <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
-        Sobre a equipe
+        Nossa equipe
       </h2>
       <p className="mt-3 text-zinc-300 max-w-3xl">
-        Somos uma equipe dedicada a transformar rotinas em processos
-        automatizados simples e confiáveis. Unimos experiência prática em
-        automação com foco em reduzir tarefas repetitivas, organizar informações
-        e gerar resultados claros por meio de relatórios e alertas inteligentes.
+        Somos uma equipe com foto total em entregar um produto de qualidade e que atenda às necessidades dos nossos clientes. Combinamos habilidades técnicas, criatividade e foco no cliente para transformar ideias em soluções digitais eficazes. Nosso compromisso é ajudar pequenas e médias empresas a crescerem e se destacarem no mercado por meio de automações inteligentes e sites profissionais.
       </p>
       <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <div className="rounded-xl border border-zinc-800 bg-zinc-900/60 p-5">
-          <h3 className="text-white font-semibold">Vanderlei Júnio Ribeiro</h3>
-          <p className="mt-2 text-zinc-300">
-            Automação de processos, integração com planilhas, emails e bancos de
-            dados.
-          </p>
-          <ul className="mt-3 text-zinc-300 space-y-1">
-            <li>
-              WhatsApp:{" "}
-              <a
-                className="text-red-500 hover:underline"
-                href="https://wa.me/5534999426661"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                (+55) 34 99942-6661
-              </a>
-            </li>
-            <li>
-              E-mail:{" "}
-              <a
-                className="text-red-500 hover:underline"
-                href="mailto:junio.ribeiro02@hotmail.com"
-              >
-                junio.ribeiro02@hotmail.com
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className="rounded-xl border border-zinc-800 bg-zinc-900/60 p-5">
+      <Cards imageName="vanderlei" Name="Vanderlei Júnio Ribeiro" email="junio.ribeiro02@hotmail.com" phone="+55 34 99942-6661" role="CEO & CTO" internalRole="Desenvolvedor" website="https://portif-lio-zeta.vercel.app/" websiteName="Portfólio"/>
+      <Cards imageName="maria" Name="Maria Eduarda Radtke Pereira" email="dudaradtkelt@gmail.com" phone="+34 655 40 71 85" role="CMO" internalRole="Marketing & Suporte"/>
+        {/* <div className="rounded-xl border border-zinc-800 bg-zinc-900/60 p-5">
           <h3 className="text-white font-semibold">
             Alisson Luis Borges Oliveira
           </h3>
@@ -70,13 +42,8 @@ export default function About() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
-      <p className="mt-6 text-zinc-300 max-w-3xl">
-        Nosso objetivo é apoiar pequenas e médias empresas e equipes
-        administrativas com soluções diretas, reduzindo custos e ganhando
-        eficiência nos processos do dia a dia.
-      </p>
     </section>
   );
 }

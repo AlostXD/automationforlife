@@ -11,6 +11,7 @@ import Sites from "../components/Sites";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 
+
 export default function Home() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -22,13 +23,14 @@ export default function Home() {
         id="inicio"
         className="flex min-h-screen w-full max-w-6xl flex-col items-center justify-between py-28 sm:py-32 px-6 sm:px-8 bg-transparent sm:items-start"
       >
+        
         <Hero />
         <Services />
         <Plans />
-        <N8NSection />
-        <About />
         <Sites />
         <CTA />
+        <N8NSection />
+        <About />
         <Footer />
       </main>
     </div>
