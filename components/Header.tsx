@@ -17,8 +17,8 @@ export default function Header({ onOpenMobile }: HeaderProps) {
           <Image
             src="/favicon.ico"
             alt="Logo"
-            width={150}
-            height={150}
+            width={50}
+            height={50}
           />
         </a>
 
