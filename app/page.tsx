@@ -10,6 +10,8 @@ import About from "../components/About";
 import Sites from "../components/Sites";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
+import Carousel from "@/components/Carousel";
+import Portfolio from "@/components/Portfolio";
 
 
 export default function Home() {
@@ -29,7 +31,9 @@ export default function Home() {
         <Plans />
         <Sites />
         <CTA />
-        <N8NSection />
+        {/*
+        <Portfolio />
+        */}
         <About />
         <Footer />
       </main>

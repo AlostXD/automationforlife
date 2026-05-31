@@ -26,7 +26,7 @@ export default function Termos() {
             </p>
 
             <p className="mt-8 text-zinc-300 leading-8 text-base sm:text-lg max-w-4xl">
-              A presente Política de Suporte e Garantia tem como objetivo estabelecer de forma transparente as condições de atendimento, suporte técnico, manutenção e garantia dos serviços prestados pela Automation For Life, respeitando os princípios do Código de Defesa do Consumidor.
+              A presente Política de Suporte e Garantia tem como objetivo estabelecer de forma transparente as condições de atendimento, suporte técnico, manutenção e garantia dos serviços prestados pela Noxys Studio, respeitando os princípios do Código de Defesa do Consumidor.
             </p>
           </div>
 
@@ -37,7 +37,7 @@ export default function Termos() {
               </h2>
 
               <p className="text-zinc-300 leading-8 mb-5">
-                A Automation For Life atua no desenvolvimento de soluções digitais, incluindo:
+                A Noxys Studio atua no desenvolvimento de soluções digitais, incluindo:
               </p>
 
               <ul className="grid sm:grid-cols-2 gap-4 text-zinc-300">
@@ -49,6 +49,7 @@ export default function Termos() {
                   "Automações",
                   "Integrações",
                   "Soluções digitais sob demanda",
+                  "Painéis administrativos",
                 ].map((item, index) => (
                   <li
                     key={index}
@@ -70,7 +71,7 @@ export default function Termos() {
               </p>
 
               <div className="bg-zinc-900/70 border border-zinc-800 rounded-3xl p-6 sm:p-8">
-                <h3 className="text-xl font-semibold text-white mb-5">
+                <h3 className="text-xl font-semibold text-red-600 mb-5">
                   A garantia cobre:
                 </h3>
 
@@ -207,7 +208,7 @@ export default function Termos() {
               </h2>
 
               <p className="text-zinc-300 leading-8">
-                Alguns projetos podem depender de serviços externos como hospedagens, APIs, gateways de pagamento, plugins e plataformas terceiras. A Automation For Life não possui responsabilidade sobre falhas, interrupções ou limitações causadas por serviços externos.
+                Alguns projetos podem depender de serviços externos como hospedagens, APIs, gateways de pagamento, plugins e plataformas terceiras. A Noxys Studio não possui responsabilidade sobre falhas, interrupções ou limitações causadas por serviços externos.
               </p>
             </section>
 
@@ -217,7 +218,7 @@ export default function Termos() {
               </h2>
 
               <p className="text-zinc-300 leading-8">
-                A Automation For Life poderá atualizar esta Política de Suporte e Garantia a qualquer momento visando melhorias, adequações legais ou operacionais.
+                A Noxys Studio poderá atualizar esta Política de Suporte e Garantia a qualquer momento visando melhorias, adequações legais ou operacionais.
               </p>
             </section>
 
@@ -227,7 +228,7 @@ export default function Termos() {
               </h2>
 
               <p className="text-zinc-300 leading-8 mb-6">
-                Em caso de dúvidas, solicitações ou suporte, entre em contato através dos canais oficiais da Automation For Life.
+                Em caso de dúvidas, solicitações ou suporte, entre em contato através dos canais oficiais da Noxys Studio.
               </p>
 
               <a

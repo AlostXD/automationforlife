@@ -22,7 +22,7 @@ export default function MobileMenu({ open, onClose }: MobileMenuProps) {
       >
         <div className="flex items-center justify-between px-4 py-3 border-b border-zinc-800">
           <a
-            href="#inicio"
+            href="/"
             className="flex items-center gap-2 text-white font-semibold"
             onClick={onClose}
           >
@@ -49,7 +49,7 @@ export default function MobileMenu({ open, onClose }: MobileMenuProps) {
             <li>
               <a
                 className="block rounded-md px-3 py-2 hover:bg-zinc-800 hover:text-white"
-                href="#inicio"
+                href="/"
                 onClick={onClose}
               >
                 Início
@@ -58,7 +58,7 @@ export default function MobileMenu({ open, onClose }: MobileMenuProps) {
             <li>
               <a
                 className="block rounded-md px-3 py-2 hover:bg-zinc-800 hover:text-white"
-                href="#servicos"
+                href="/#servicos"
                 onClick={onClose}
               >
                 Serviços
@@ -67,46 +67,19 @@ export default function MobileMenu({ open, onClose }: MobileMenuProps) {
             <li>
               <a
                 className="block rounded-md px-3 py-2 hover:bg-zinc-800 hover:text-white"
-                href="#planos"
+                href="/#portfolio"
                 onClick={onClose}
               >
-                Planos
+                Portfólio
               </a>
             </li>
             <li>
               <a
                 className="block rounded-md px-3 py-2 hover:bg-zinc-800 hover:text-white"
-                href="#n8n"
-                onClick={onClose}
-              >
-                O que é n8n
-              </a>
-            </li>
-            <li>
-              <a
-                className="block rounded-md px-3 py-2 hover:bg-zinc-800 hover:text-white"
-                href="#sobre"
+                href="/#sobre"
                 onClick={onClose}
               >
                 Sobre
-              </a>
-            </li>
-            <li>
-              <a
-                className="block rounded-md px-3 py-2 hover:bg-zinc-800 hover:text-white"
-                href="#contato"
-                onClick={onClose}
-              >
-                Contatos
-              </a>
-            </li>
-            <li>
-              <a
-                className="block rounded-md px-3 py-2 hover:bg-zinc-800 hover:text-white"
-                href="#sites"
-                onClick={onClose}
-              >
-                Sites
               </a>
             </li>
             <li>
